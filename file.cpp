@@ -13,7 +13,7 @@ void read_file(char *filename1, uint32_t *buf)
         fputs("File error", stderr);
         exit(1);
     }
-    int result;
+
     fread(buf, 4, 1, fp1);
     fclose(fp1);
 }
